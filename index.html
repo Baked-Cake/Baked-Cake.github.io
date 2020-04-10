@@ -1,35 +1,70 @@
 <!DOCTYPE html> 
 <html>
 <head>
-
+<style>
+    bbody{
+        background-color: #EFEFFF
+    }
+    .header {
+        padding: 10px;
+        text-align: center;
+        background: #00005B;
+        color: white;
+        font-size: 30px;
+        font-family: "Zapf Chancery";
+    }
+    .row {
+      display: flex;
+    }
+    
+    .columnInfo {
+      flex: 70%;
+      width: 70%;
+      padding: 10px;
+    }
+    
+    .columnPInfo {
+      flex: 30%;
+      width: 30%;
+      padding: 10px;
+    }
+    .headingFont{
+        font-family: "Zapf Chancery"
+        color: #00005B;
+    }
+    .pFont{
+        font-family: "Palatino Linotype"
+        color: #00005B;
+    }
+    .perFont{
+        font-family: "Palatino Linotype"
+        color: #00005B;
+        font-size: 20px;
+        text-align: center;
+    }
+</style>
 <title> Jessica Patel </title>
 </head>
-<style>
-    .boxed {
-  background-color: rgba(119, 100, 120, 0.1);
-  border: 5px solid rgba(119, 100, 120, 0.01);
-}
-</style>
+<bbody>
+    <div class="header">
+      <h1>Jessica Patel</h1>
+      <hr>
+    </div>
+    
+    <div class="row">
+      <div class="columnInfo">
+        <h2 class="headingFont">About Me</h2>
+        <p class="pFont">Some text..</p>
+      </div>
+      <div class="columnPInfo">
+        <img src="me.jpg" alt="Jessica Patel Picture">
+        <p class="perFont">Jessica Patel</p>
+        <p class = "perFont"><a href="https://www.linkedin.com/in/jessica-patel-/">LinkedIn</a></p>
+        <p class = "perFont"> <a href="C:\Users\jessi\Documents\GitHub\Baked-Cake.github.io\290_Resume_Latest.pdf">Resume</a></p>
+       
+      </div>
+    </div>
+</bbody>
 
-<!-- linear-gradient(to top, blue, darkblue) -->
-<body style = "background-color: rgb(219, 255, 255);">
-<div class="boxed">
-<h1> Jessica Patel</h1>
-<h2> About </h2><img src="me.jpg" alt="Me" width="150" height="200" align="right">
 
-Hi, I'm a student at the University of Toronto Mississauga. 
-I'm currently doing a computer science major with a mathematics and educational studies minor.
-
-<h2> Current Events </h2>
-On Sundays I volunteer at the Sunday Education School. It is a not for profit organization 
-that teaches kids from grade 1-8 math, science and english.
-<br></br>
-On Wednesdays I'm a volunteer at Aspire. It is a non-profit program that helps provide kids 
-from grades 1-6 tutoring help for math, science, french and language for free. 
-
-<h2> Projects I've Done </h2>
-TBA
-
-</div>
-</body>
 </html>
